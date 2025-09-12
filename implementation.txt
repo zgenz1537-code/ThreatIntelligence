@@ -1,0 +1,32 @@
++------------------------+
+| Cyber Threat Detection |
++------------------------+
+
+    1. Dataset
+        * CICIDS2017 - https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset
+        * EdgeIIOT - https://www.kaggle.com/datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot
+
+    2. Preprocessing
+        * Categorical To Numerical
+        * Null Value Handling
+        * Scaling - MinMax Scaler
+
+    3. Feature Selection
+        * Chaotic Butterfly Optimizer
+    
+    4. Classification
+        * Ensemble DL Model
+            * Bidirectional Gated Recurrent Unit (BiGRU)
+            * Convolutional AutoEncoder (CAE)
+            * Temporal Convolutional Network (TCN)
+        * Hyperparameter Tuning - Nutcracker Optimizer
+    
+    5. Performance Evaluation
+        * Confusion Matrix
+        * PR-Curve
+        * ROC-Curve
+        * Accuracy
+        * Precision
+        * Recall
+        * F1-Score
+        * AUC-Score
